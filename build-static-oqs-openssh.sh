@@ -18,7 +18,7 @@ ninja install
 
 # openssh
 cd $WORKSPACE
-git clone -b OQS-v9 https://github.com/open-quantum-safe/openssh.git
+git clone -b OQS-v10 https://github.com/open-quantum-safe/openssh.git
 cd openssh
 autoreconf -i
 LDFLAGS="-static -no-pie -s" ./configure --prefix=/usr/local/liboqs_opensshmm --sysconfdir=/usr/local/liboqs_opensshmm/etc/ssh \
