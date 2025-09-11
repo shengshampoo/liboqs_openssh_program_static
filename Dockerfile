@@ -11,7 +11,7 @@ RUN apk add --no-cache \
   gcc make linux-headers musl-dev zlib-dev zlib-static \
   python3-dev libedit-dev libedit-static libedit \
   openssl-dev openssl-libs-static cmake git ninja \
-  libtool autoconf automake bash
+  libtool autoconf automake bash xz
 
 ENV XZ_OPT=-e9
 COPY build-static-oqs-openssh.sh build-static-oqs-openssh.sh
