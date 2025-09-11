@@ -25,5 +25,5 @@ jobs:
     - name: Upload static program
       uses: actions/upload-artifact@v4
       with:
-        name: avifmm
+        name: liboqs_openssh
         path: ./*.tar.xz
